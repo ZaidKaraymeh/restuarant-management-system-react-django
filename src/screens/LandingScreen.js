@@ -16,7 +16,6 @@ function LandingScreen() {
             onClick={() =>  {
                 dispatch(setCartDate(getDateTime()))
                 navigate("/home")
-        
         }}
         >
             <h1>New order</h1>
